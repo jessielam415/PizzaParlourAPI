@@ -168,27 +168,3 @@ Using the facade design pattern for our API reduces the dependencies our CLI has
 Strategy:
 Our program utilizes the strategy pattern in our CLI. Depending on what the user inputs to the CLI, our code executes different algorithms to carry out the respective actions. 
 Using the strategy patterns allows for quick selection and execution of the correct code blocks in response to user input. 
-
-
-### Pair Programming and Reflection
-
-We pair-programmed the get_menu method (later changed to be called get_full_menu) of our original CLI template. We also pair-programmed parts of our API together, including return_full_menu, get_price_specific, the API read and write to JSON file functions. We also pair programmed our menu.json file. 
-
-Here is a breakdown of who the driver and navigator is for the pair-programmed portions:
-- Driver: Jessie, Navigator: Frank
-  - CLI: get_menu 
-  - API: get_price_specific()
-  
-- Driver: Frank, Navigator: Jessie
-  - API: read_from_json(), write_to_json(), return_full_menu()
-  - menu.json
-
-Process: 
-We started our pair programming first on November 5th, 2020 starting at 3:15 PM. This time was mutually decided upon. Pair programming was done through discord using screen sharing. 
-First, Frank was the driver and Jessie was the navigator. Frank started programming the CLI template as we both decided that doing so would give us a good idea of how our API can be developed in a user-friendly manner. Jessie watched Frank program during this period and pointed out some errors in the code that came up while Frank was typing up the code. Then Frank started programming our menu.json file. Jessie provided input on how she thought the menu file should be formatted for easy reference in future use. There was a back and forth conversation between Frank and Jessie on how to structure the menu.json file and eventually the two came to an agreement on how the file should be structuresd. 
-Then, we did a switch and Jessie was the driver while Frank was the navigator. Jessie started programming get_menu in the initial CLI template. Frank pointed out a code errors that came up while Jessie was coding. 
-
-On November 6th, we continued our pair programming practice in the evening. Pair programming was also done through discord using screen sharing. Frank and Jessie looked over Jessie's current API code. Frank found and fixed some errors in it. Jessie also found some errors in the current API code and notified Frank to change them. Then, Frank implemented the read_to_json() and write_to_json() functions so that there was data permenance for our orders. Jessie was responsible for looking up how json files are read and written to and instructed Frank on how to write the functions. Afterwards, Frank wrote the return_full_menu function while Jessie made sure there was no errors in the code being written. Then, we did a switch and Jessie began to write the get_price_specific() function. Frank suggested Jessie to not include pizza types in get_price_specific() as all pizza types are the same price based on the size. Jessie then commented out the code. 
-
-Reflection: 
-We decided that we enjoyed pair programming as it was reassuring to have another person look over the code as it is being written. We did noticed that we both had errors we did not notice that the other person caught for us. This process resulted in less error in code as it is being written. However, we both also decided that pair programming took up more time than if we were to write the code by ourselves. Another benefit from the pair programming was that we both now have an agreed upon menu.json format that is intuitive to both of us to use in future code, whereas if one person programmed the menu.json on their own, the other person would have to look over it and take additional time in learning how to use it. 
