@@ -1,0 +1,40 @@
+{
+  "menu": {
+    "pizza": {
+      "size": {
+        "S": 6,
+        "M": 8,
+        "L": 10
+      },
+      "type": [
+        "Pepperoni",
+        "Margherita",
+        "Vegetarian",
+        "Hawaiian"
+      ],
+      "toppings": [
+        "Olives",
+        "Basil",
+        "Peppers",
+        "Pineapple",
+        "Ham",
+        "Tomatoes",
+        "Mushrooms",
+        "Jalapenos",
+        "Chicken",
+        "Beef",
+        "Pepperoni"
+      ]
+    },
+    "drinks": {
+      "Coke": 2,
+      "Diet Coke": 2,
+      "Coke Zero": 2,
+      "Pepsi": 2,
+      "Diet Pepsi": 2,
+      "Dr. Pepper": 2,
+      "Water": 1,
+      "Juice": 3
+    }
+  }
+}
